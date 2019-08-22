@@ -7745,7 +7745,7 @@ h1, h2, h3, h4, h5,
 
 .services-wrap {
   width: 100%;
-  padding: 5% 25% 5% 10%; }
+  padding: 0% 20% 0% 10%; }
   .services-wrap .list-services {
     display: block;
     margin-bottom: 30px; }
@@ -7807,7 +7807,7 @@ h1, h2, h3, h4, h5,
     background-repeat: no-repeat;
     background-position: center center;
     position: relative;
-    padding: 4em 0;
+    padding: 2em 0;
     background: #546e7a;
     background: -moz-linear-gradient(-45deg, #546e7a 0%, #0288d1 100%);
     background: -webkit-gradient(left top, right bottom, color-stop(0%, #546e7a), color-stop(100%, #0288d1));
@@ -8132,7 +8132,7 @@ textarea.form-control {
   font-size: 20px; }
 
 .ftco-section {
-  padding: 7em 0;
+  padding: 3em 0;
   position: relative; }
   .ftco-section.ftco-section-2 {
     position: relative;
@@ -9156,4 +9156,16 @@ textarea.form-control {
 .logo {
   width: 110px;
   filter: invert(65%);
+}
+
+.logo-icon {
+  width: 100px;
+}
+
+#overview:before, #how-it-works:before, #features:before, #use-cases:before { 
+  display: block; 
+  content: " "; 
+  margin-top: -100px;
+  height: 100px;
+  visibility: hidden; 
 }
