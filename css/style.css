@@ -126,6 +126,9 @@ strong {
 small {
   font-size: 80%; }
 
+.smaller {
+    font-size: 65%; }
+
 sub,
 sup {
   position: relative;

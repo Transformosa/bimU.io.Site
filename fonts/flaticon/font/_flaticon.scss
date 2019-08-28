@@ -1,12 +1,13 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 16/09/2018 01:40
+    Creation date: 28/08/2019 00:20
     */
 
     @font-face {
   font-family: "Flaticon";
   src: url("./Flaticon.eot");
   src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
        url("./Flaticon.woff") format("woff"),
        url("./Flaticon.ttf") format("truetype"),
        url("./Flaticon.svg#Flaticon") format("svg");
@@ -36,10 +37,48 @@
   font-smoothing: antialiased;
     }
 
-    .flaticon-research:before { content: "\f100"; }
-.flaticon-creativity:before { content: "\f101"; }
-.flaticon-market:before { content: "\f102"; }
+    .flaticon-integration:before { content: "\f100"; }
+.flaticon-integration-1:before { content: "\f101"; }
+.flaticon-solution:before { content: "\f102"; }
+.flaticon-solution-1:before { content: "\f103"; }
+.flaticon-solution-3:before { content: "\f104"; }
+.flaticon-review-3:before { content: "\f105"; }
+.flaticon-process:before { content: "\f106"; }
+.flaticon-sketch:before { content: "\f107"; }
+.flaticon-hook:before { content: "\f108"; }
+.flaticon-architecture:before { content: "\f109"; }
+.flaticon-crane:before { content: "\f10a"; }
+.flaticon-seo-performance-marketing-graphic:before { content: "\f10b"; }
+.flaticon-statistics:before { content: "\f10c"; }
+.flaticon-production:before { content: "\f10d"; }
+.flaticon-statistics-1:before { content: "\f10e"; }
+.flaticon-meeting:before { content: "\f10f"; }
+.flaticon-collaboration:before { content: "\f110"; }
+.flaticon-network:before { content: "\f111"; }
+.flaticon-collaboration-1:before { content: "\f112"; }
+.flaticon-meeting-1:before { content: "\f113"; }
+.flaticon-seo-and-web:before { content: "\f114"; }
+.flaticon-data:before { content: "\f115"; }
     
-    $font-Flaticon-research: "\f100";
-    $font-Flaticon-creativity: "\f101";
-    $font-Flaticon-market: "\f102";
+    $font-Flaticon-integration: "\f100";
+    $font-Flaticon-integration-1: "\f101";
+    $font-Flaticon-solution: "\f102";
+    $font-Flaticon-solution-1: "\f103";
+    $font-Flaticon-solution-3: "\f104";
+    $font-Flaticon-review-3: "\f105";
+    $font-Flaticon-process: "\f106";
+    $font-Flaticon-sketch: "\f107";
+    $font-Flaticon-hook: "\f108";
+    $font-Flaticon-architecture: "\f109";
+    $font-Flaticon-crane: "\f10a";
+    $font-Flaticon-seo-performance-marketing-graphic: "\f10b";
+    $font-Flaticon-statistics: "\f10c";
+    $font-Flaticon-production: "\f10d";
+    $font-Flaticon-statistics-1: "\f10e";
+    $font-Flaticon-meeting: "\f10f";
+    $font-Flaticon-collaboration: "\f110";
+    $font-Flaticon-network: "\f111";
+    $font-Flaticon-collaboration-1: "\f112";
+    $font-Flaticon-meeting-1: "\f113";
+    $font-Flaticon-seo-and-web: "\f114";
+    $font-Flaticon-data: "\f115";
