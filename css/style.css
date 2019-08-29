@@ -9162,7 +9162,8 @@ textarea.form-control {
 }
 
 .logo-icon {
-  width: 100px;
+  height: 50px;
+  margin: 25px;
 }
 
 #overview:before, #how-it-works:before, #features:before, #use-cases:before { 
