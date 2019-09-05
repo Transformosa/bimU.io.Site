@@ -319,6 +319,51 @@
     fixedContentPos: false
   });
 
+  $('.feature1-popup-image').magnificPopup({
+	type: 'image'
+	// other options
+  });
+
+  $('.feature2-popup-image').magnificPopup({
+	type: 'image'
+	// other options
+  });
+
+  $('.feature3-popup-image').magnificPopup({
+	type: 'image'
+	// other options
+  });
+
+  $('.feature4-popup-image').magnificPopup({
+	type: 'image'
+	// other options
+  });
+
+  $('.feature5-popup-image').magnificPopup({
+	type: 'image'
+	// other options
+  });
+
+  $('.feature6-popup-image').magnificPopup({
+	type: 'image'
+	// other options
+  });
+
+  $('.feature7-popup-image').magnificPopup({
+	type: 'image'
+	// other options
+  });
+
+  $('.feature8-popup-image').magnificPopup({
+	type: 'image'
+	// other options
+  });
+
+  $('.feature9-popup-image').magnificPopup({
+	type: 'image'
+	// other options
+  });
+
 
   // TYPEWRITE
 	var TxtType = function(el, toRotate, period) {
