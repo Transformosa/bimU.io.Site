@@ -9345,3 +9345,9 @@ textarea.form-control {
   height: 100px;
   visibility: hidden; 
 }
+
+@media(min-width: 1200px){
+  .promo-title-row{
+    display: none;
+  }
+}
