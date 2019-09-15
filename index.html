@@ -40,24 +40,24 @@
     
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.html"><img class="logo" src="images/logo.png" alt="logo"/></a>
+	      <a class="navbar-brand" href="/"><img class="logo" src="images/logo.png" alt="logo"/></a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
-	          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+	          <li class="nav-item active"><a href="/" class="nav-link">Home</a></li>
 	          <li class="nav-item"><a href="#overview" class="nav-link">Overview</a></li>
             <li class="nav-item"><a href="#how-it-works" class="nav-link">How it works</a></li>
             <li class="nav-item"><a href="#features" class="nav-link">Features</a></li>
             <li class="nav-item"><a href="#use-cases" class="nav-link">Use cases</a></li>
             <!-- <li class="nav-item"><a href="pricing.html" class="nav-link">Pricing</a></li> -->
 	          <li class="nav-item"><a href="https://docs.bimu.io" target="_blank" class="nav-link">Docs</a></li>
-	          <li class="nav-item"><a href="https://docs.bimu.io" target="_blank" class="nav-link">FAQ</a></li>
-	          <li class="nav-item"><a href="https://docs.bimu.io" target="_blank" class="nav-link">Blog</a></li>
+	          <li class="nav-item"><a href="https://support.bimu.io/portal/kb" target="_blank" class="nav-link">FAQ</a></li>
+	          <li class="nav-item"><a href="https://medium.com/transformosa-blog" target="_blank" class="nav-link">Blog</a></li>
 	          <!-- <li class="nav-item"><a href="contact.html" class="nav-link">Support</a></li> -->
-	          <li class="nav-item cta"><a href="https://viewer.bimu.io" class="nav-link"><span>Log in now</span></a></li>
+	          <li class="nav-item cta"><a href="https://viewer.bimu.io" class="nav-link" target="_blank"><span>Log in now</span></a></li>
 	        </ul>
 	      </div>
 	    </div>
@@ -67,10 +67,10 @@
     <div class="hero-wrap-promo-row">
       <div class="overlay"></div>
       <div class="container-fluid">
-        <div class="slider-text-short d-md-flex align-self-md-center justify-content-center" data-scrollax-parent="true">
-          <div class="row promo-video-row">
-            <div class="col-md">
-              <div class="ftco-animate align-self-md-center" data-scrollax=" properties: { translateY: '70%' }">
+        <div class="slider-text-short d-md-flex justify-content-center" data-scrollax-parent="true">
+          <div class="row promo-video-row align-items-center">
+            <div class="col-md align-self-md-center">
+              <div class="ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
                 <h1 class="mb-4"> Share BIM 
                   <br class="promo-title-row">with
                     <strong class="typewrite" data-period="1000" data-type='[ "Client", "Engineer", "Contractor", "Architect" ]'>
@@ -79,7 +79,7 @@
                   </br>
                 </h1>
                 <p class="mb-md-5 mb-sm-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Free BIM model viewer for you and for everyone! Share and access your BIM data via browser effortlessly and securely.</p>
-                <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><a href="https://viewer.bimu.io" class="btn btn-primary px-4 py-3">Log in Now</a> <a href="#" class="btn btn-primary btn-outline-primary px-4 py-3">Learn More</a></p>
+                <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><a href="https://viewer.bimu.io" class="btn btn-primary px-4 py-3" target="_blank">Log in Now</a> <a href="#overview" class="btn btn-primary btn-outline-primary px-4 py-3">Learn More</a></p>
               </div>
             </div>
             <div class="col-md promo-video">
@@ -402,7 +402,7 @@
     	<div id="use-cases" class="container">
         <div class="row justify-content-center mb-5">
           <div class="col-md-7 text-center heading-section ftco-animate">
-            <h2 class="mb-2">Discover the new way to deliver your projects</h2>
+            <h2 class="mb-2">Discover a new way to deliver your projects</h2>
             <span class="subheading">Get started now and see what you can do with bimU.io.</span>
           </div>
         </div>
@@ -488,7 +488,7 @@
 	            <h2 class="heading">bimU.io Viewer Free</h2>
 	            <span class="price"><sup>£</sup> <span class="number">0</span></span>
 	            <span class="excerpt d-block">100% free. Forever.</span>
-	            <a href="#" class="btn btn-primary d-block px-2 py-3 mb-4">Get Started</a>
+	            <a href="https://viewer.bimu.io" class="btn btn-primary d-block px-2 py-3 mb-4">Get Started</a>
 	            
 	            <ul class="pricing-text">
 	              <li><strong>Single Sign-On</strong></li>
@@ -503,7 +503,7 @@
 	        <div class="col-md-4 ftco-animate">
 	          <div class="block-7">
 	            <div class="text-center">
-	            <h2 class="heading">bimU.io Viewer Standard</h2>
+	            <h2 class="heading">bimU.io Viewer Pro</h2>
 	            <span class="price"><sup>£</sup> <span class="number">1</span></span>
 	            <span class="excerpt d-block">per model per month billed annually</span>
 	            <a href="#" class="btn btn-primary btn-outline-primary d-block px-3 py-3 mb-4">Stay Tuned</a>
@@ -545,30 +545,34 @@
     <footer class="ftco-footer ftco-bg-dark ftco-section">
       <div class="container">
         <div class="row mb-5">
-          <div class="col-md-3">
+          <div class="col-md-4">
             <div class="ftco-footer-widget mb-4">
               <h2 class="ftco-heading-2">bimU.io</h2>
-              <p>The Best Digital Solution Natively Built for BIM</p>
+              <p>The best digital solution natively built for BIM</p>
             </div>
             <ul class="ftco-footer-social list-unstyled float-md-left float-lft ">
-              <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-              <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-              <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+              <li class="ftco-animate"><a href="#"><span class="icon-twitter" target="_blank"></span></a></li>
+              <li class="ftco-animate"><a href="#"><span class="icon-youtube" target="_blank"></span></a></li>
+              <li class="ftco-animate"><a href="https://medium.com/transformosa-blog" target="_blank"><span class="icon-medium"></span></a></li>
+              <li class="ftco-animate"><a href="#"><span class="icon-facebook" target="_blank"></span></a></li>
+              <li class="ftco-animate"><a href="#"><span class="icon-linkedin" target="_blank"></span></a></li>              
             </ul>
           </div>
-          <div class="col-md-2">
+          <div class="col-md-4">
             <div class="ftco-footer-widget mb-4 ml-md-5">
               <h2 class="ftco-heading-2">Quick Links</h2>
               <ul class="list-unstyled">
-                <li><a href="#" class="py-2 d-block">About</a></li>
-                <li><a href="#" class="py-2 d-block">Features</a></li>
-                <li><a href="#" class="py-2 d-block">Projects</a></li>
-                <li><a href="#" class="py-2 d-block">Blog</a></li>
-                <li><a href="#" class="py-2 d-block">Contact</a></li>
+                <li><a href="https://docs.bimu.io/" class="py-1 d-block" target="_blank">Docs</a></li>
+                <li><a href="https://medium.com/transformosa-blog" class="py-1 d-block" target="_blank">Blog</a></li>
+                <li><a href="https://support.bimu.io/" class="py-1 d-block" target="_blank">Support Centre</a></li>
+                <li><a href="https://support.bimu.io/portal/kb" class="py-1 d-block" target="_blank">FAQ</a></li>
+                <li><a href="https://support.bimu.io/portal/community" class="py-1 d-block" target="_blank">Community Forum</a></li>
+                <li><a href="https://docs.bimu.io/terms-of-service/" class="py-1 d-block" target="_blank">Terms of Service</a></li>
+                <li><a href="https://docs.bimu.io/privacy-policy/" class="py-1 d-block" target="_blank">Privacy Policy</a></li>
               </ul>
             </div>
           </div>
-          <div class="col-md-4 pr-md-4">
+          <!-- <div class="col-md-4 pr-md-4">
             <div class="ftco-footer-widget mb-4">
               <h2 class="ftco-heading-2">Recent Blog</h2>
               <div class="block-21 mb-4 d-flex">
@@ -594,15 +598,15 @@
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-md-3">
+          </div> -->
+          <div class="col-md-4">
             <div class="ftco-footer-widget mb-4">
             	<h2 class="ftco-heading-2">Contact Info</h2>
             	<div class="block-23 mb-3">
 	              <ul>
-	                <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
-	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
-	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
+	                <li><span class="text"><strong>Transformosa Private Limited</strong></span></li>
+	                <li><span class="text"><small>A company registered in England and Wales with company number 10458969</small></span></li>
+	                <li><a href="mailto:support@bimu.io"><span class="icon icon-envelope"></span><span class="text">support@bimu.io</span></a></li>
 	              </ul>
 	            </div>
             </div>
@@ -629,58 +633,7 @@
   
 
   <!-- loader -->
-  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
-
-  <!-- Modal -->
-  <div class="modal fade" id="modalRequest" tabindex="-1" role="dialog" aria-labelledby="modalRequestLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="modalRequestLabel">Request a Quote</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <form action="#">
-            <div class="form-group">
-              <!-- <label for="appointment_name" class="text-black">Full Name</label> -->
-              <input type="text" class="form-control" id="appointment_name" placeholder="Full Name">
-            </div>
-            <div class="form-group">
-              <!-- <label for="appointment_email" class="text-black">Email</label> -->
-              <input type="text" class="form-control" id="appointment_email" placeholder="Email">
-            </div>
-            <div class="row">
-              <div class="col-md-6">
-                <div class="form-group">
-                  <!-- <label for="appointment_date" class="text-black">Date</label> -->
-                  <input type="text" class="form-control" id="appointment_date" placeholder="Date">
-                </div>    
-              </div>
-              <div class="col-md-6">
-                <div class="form-group">
-                  <!-- <label for="appointment_time" class="text-black">Time</label> -->
-                  <input type="text" class="form-control" id="appointment_time" placeholder="Time">
-                </div>
-              </div>
-            </div>
-            
-
-            <div class="form-group">
-              <!-- <label for="appointment_message" class="text-black">Message</label> -->
-              <textarea name="" id="appointment_message" class="form-control" cols="30" rows="10" placeholder="Message"></textarea>
-            </div>
-            <div class="form-group">
-              <input type="submit" value="Get a Quote" class="btn btn-primary">
-            </div>
-          </form>
-        </div>
-        
-      </div>
-    </div>
-  </div>
-
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#455a64"/></svg></div>
 
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
