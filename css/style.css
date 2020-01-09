@@ -7512,11 +7512,11 @@ h1, h2, h3, h4, h5,
   height: 550px; }
   @media (min-width: 768px) and (max-width: 991.98px) {
     .hero-wrap-promo-row {
-      height: 496.16px; } }
+      height: 400px; } }
 
   @media (max-width: 767.98px) {
     .hero-wrap-promo-row {
-      height: 600px; } }
+      height: 700px; } }
   
   .hero-wrap-promo-row .overlay {
     position: absolute;
